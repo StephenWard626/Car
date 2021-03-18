@@ -9,7 +9,7 @@ namespace Car.Models
     {
         Petrol, Diesel, Hybrid, Electric
     }
-    public class Car
+    public class Vehicel
     {
         public string Make { get; set; }
         public string Model { get; set; }

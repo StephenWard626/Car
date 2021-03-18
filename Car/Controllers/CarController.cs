@@ -11,7 +11,7 @@ namespace Car.Controllers
     {
         public IActionResult Index()
         {
-            Vehicel myCar = new Vehicel() { Make = "Toyota", Model = "Yaris", Engine = EngineType.Hybrid, EngineSize = 20 };
+            Vehicle myCar = new Vehicle() { Make = "Toyota", Model = "Yaris", Engine = EngineType.Hybrid, EngineSize = 20 };
             return View(myCar);
         }
     }

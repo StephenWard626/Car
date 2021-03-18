@@ -13,8 +13,6 @@ namespace Car.Controllers
         {
             Vehicle myCar = new Vehicle() { Make = "Toyota", Model = "Yaris", Engine = EngineType.Hybrid, EngineSize = 20 };
             return View(myCar);
-
-
         }
     }
 }
